@@ -1,6 +1,6 @@
 const https = require('https');
 
-const SITE = process.env.SITE_URL || 'https://saashub.in';
+const SITE = process.env.SITE_URL || 'https://onlinesaasmarketplace.com';
 
 // Ping Google + Bing to re-crawl the sitemap — no API key needed
 async function pingSitemaps() {

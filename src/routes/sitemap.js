@@ -2,7 +2,7 @@ const router = require('express').Router();
 const Listing = require('../models/Listing');
 const Blog = require('../models/Blog');
 
-const SITE = process.env.FRONTEND_URL || 'https://saashub.in';
+const SITE = process.env.FRONTEND_URL || 'https://onlinesaasmarketplace.com';
 
 const urlEntry = (loc, { lastmod, changefreq = 'weekly', priority = '0.5' } = {}) => `
   <url>
